@@ -1,3 +1,5 @@
+package InventoryManagement;
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,9 +8,9 @@ public class Main {
         Inventory inventory = new Inventory();
 
         while (true) {
-            System.out.println("Welcome to Inventory Management System");
-            System.out.println("1. Add Item");
-            System.out.println("2. Remove Item");
+            System.out.println("Welcome to InventoryManagement.Inventory Management System");
+            System.out.println("1. Add InventoryManagement.Item");
+            System.out.println("2. Remove InventoryManagement.Item");
             System.out.println("3. List Items");
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");

@@ -1,3 +1,5 @@
+package InventoryManagement;
+
 public class Supplier {
     private String supplierId;
     private String name;
@@ -16,6 +18,6 @@ public class Supplier {
     }
 
     public void displayDetails() {
-        System.out.println("Supplier ID: " + supplierId + ", Name: " + name);
+        System.out.println("InventoryManagement.Supplier ID: " + supplierId + ", Name: " + name);
     }
 }

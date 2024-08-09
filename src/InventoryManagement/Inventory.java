@@ -1,3 +1,5 @@
+package InventoryManagement;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +25,7 @@ public class Inventory {
                 }
             }
             if(!found){
-                System.out.println("Item not found");
+                System.out.println("InventoryManagement.Item not found");
             }
         }
 

@@ -1,3 +1,5 @@
+package InventoryManagement;
+
 import java.util.Scanner;
 
 public class ElectronicsItem extends Item {
@@ -10,11 +12,11 @@ public class ElectronicsItem extends Item {
 
     @Override
     public void displayDetails() {
-        System.out.println("Item ID: " + getItemId() + ", Name: " + getName() +
+        System.out.println("InventoryManagement.Item ID: " + getItemId() + ", Name: " + getName() +
                 ", Quantity: " + getQuantity() + ", Price: " + getPrice() +
                 ", Warranty: " + warranty);
     }
-    static public void inputFields(Scanner scanner,Inventory inventory) {
+    static public void inputFields(Scanner scanner, Inventory inventory) {
         System.out.print("Enter item type (Electronics): ");
         String type = scanner.nextLine();
 
@@ -40,7 +42,7 @@ public class ElectronicsItem extends Item {
             System.out.println("Invalid item type.");
         }
     }
-        static public  void removeField(Scanner scanner,Inventory inventory){
+        static public  void removeField(Scanner scanner, Inventory inventory){
             System.out.print("Enter item ID to remove: ");
             String removeItemId = scanner.nextLine();
             inventory.removeItem(removeItemId);
