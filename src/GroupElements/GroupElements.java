@@ -1,4 +1,4 @@
-package ArrayDifference;
+package GroupElements;
 
 import java.util.*;
 public class GroupElements {
